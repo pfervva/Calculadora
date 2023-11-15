@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#9E4444"
+    android:background="#9F0404"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -51,9 +51,55 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="6"
-            android:background="#F81C1C"
+            android:background="#681F1F"
             android:orientation="vertical"
             android:padding="20dp">
+
+            <LinearLayout
+                android:id="@+id/linea5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:background="#FFFFFF"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/boton_principal"
+                    android:text="C"
+                    app:backgroundTint="@null" />
+
+                <Button
+                    android:id="@+id/button19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/boton_principal"
+                    android:text="("
+                    app:backgroundTint="@null" />
+
+                <Button
+                    android:id="@+id/button20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/boton_principal"
+                    android:text=")"
+                    app:backgroundTint="@null" />
+
+                <Button
+                    android:id="@+id/button21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/boton_principal"
+                    android:text="^"
+                    app:backgroundTint="@null" />
+            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/linea1"
@@ -70,7 +116,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/boton_principal"
-                    android:text="Button"
+                    android:text="7"
                     app:backgroundTint="@null" />
 
                 <Button
@@ -79,7 +125,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/boton_principal"
-                    android:text="Button"
+                    android:text="8"
                     app:backgroundTint="@null" />
 
                 <Button
@@ -88,7 +134,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/boton_principal"
-                    android:text="Button"
+                    android:text="9"
                     app:backgroundTint="@null" />
 
                 <Button
@@ -97,7 +143,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/boton_principal"
-                    android:text="Button"
+                    android:text="/"
                     app:backgroundTint="@null" />
 
             </LinearLayout>
@@ -117,7 +163,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/boton_principal"
-                    android:text="Button"
+                    android:text="4"
                     app:backgroundTint="@null" />
 
                 <Button
@@ -126,7 +172,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/boton_principal"
-                    android:text="Button"
+                    android:text="5"
                     app:backgroundTint="@null" />
 
                 <Button
@@ -135,7 +181,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/boton_principal"
-                    android:text="Button"
+                    android:text="6"
                     app:backgroundTint="@null" />
 
                 <Button
@@ -144,7 +190,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/boton_principal"
-                    android:text="Button"
+                    android:text="*"
                     app:backgroundTint="@null" />
             </LinearLayout>
 
@@ -162,7 +208,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/boton_principal"
-                    android:text="Button"
+                    android:text="1"
                     app:backgroundTint="@null" />
 
                 <Button
@@ -171,7 +217,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/boton_principal"
-                    android:text="Button"
+                    android:text="2"
                     app:backgroundTint="@null" />
 
                 <Button
@@ -180,7 +226,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/boton_principal"
-                    android:text="Button"
+                    android:text="3"
                     app:backgroundTint="@null" />
 
                 <Button
@@ -189,7 +235,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/boton_principal"
-                    android:text="Button"
+                    android:text="-"
                     app:backgroundTint="@null" />
             </LinearLayout>
 
@@ -208,16 +254,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/boton_principal"
-                    android:text="Button"
-                    app:backgroundTint="@null" />
-
-                <Button
-                    android:id="@+id/button16"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/boton_principal"
-                    android:text="Button"
+                    android:text="0"
                     app:backgroundTint="@null" />
 
                 <Button
@@ -226,7 +263,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/boton_principal"
-                    android:text="Button"
+                    android:text="="
                     app:backgroundTint="@null" />
 
                 <Button
@@ -235,55 +272,10 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/boton_principal"
-                    android:text="Button"
+                    android:text="+"
                     app:backgroundTint="@null" />
             </LinearLayout>
 
-            <LinearLayout
-                android:id="@+id/linea5"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-
-                android:background="#FFFFFF"
-                android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/button18"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/boton_principal"
-                    android:text="Button"
-                    app:backgroundTint="@null" />
-
-                <Button
-                    android:id="@+id/button19"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/boton_principal"
-                    android:text="Button"
-                    app:backgroundTint="@null" />
-
-                <Button
-                    android:id="@+id/button20"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/boton_principal"
-                    android:text="Button"
-                    app:backgroundTint="@null" />
-
-                <Button
-                    android:id="@+id/button21"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/boton_principal"
-                    android:text="Button"
-                    app:backgroundTint="@null" />
-            </LinearLayout>
         </LinearLayout>
 
     </LinearLayout>
